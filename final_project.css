@@ -1,0 +1,50 @@
+body {
+    font-family: 'Kalam', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
+    justify-content: center;
+}
+
+#mainPlayer {
+    grid-column: 3 / 4;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+#mainCom {
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+#flip {
+    width:200px;
+    height: 50px;
+    display:block;
+    margin: 80px;
+}
+
+#draw {
+    width: 200px;
+    height: 50px;
+    display:block;
+    margin: 80px;
+}
+ 
+#winner{
+    display: block;
+    margin: 80px;
+}
+
+#buttons {
+    grid-column: 1/2;
+    margin-top: 120px;
+}
+
+#game {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 50px;
+    text-align: center;
+}

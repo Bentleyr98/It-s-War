@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="final_project.css">
+
+</head>
+<body>
+    <audio autoplay loop preload="auto">
+        <source src="no_turning_back.mp3" type="audio/mp3">
+    </audio>
+
+    <h1 id="game">Welcome to the game of War</h1>
+    <div id="mainCom">
+    <h2 id="computer">Computer</h2>
+    <h3 id="comCards">Cards in Deck: 26</h3>
+    <img id="comImage", src="images/cards/back_card.png", alt="back of card", width=275, height=400>
+    </div>
+
+    <div id="mainPlayer">
+    <h2 id="player">Player</h2>
+    <h3 id="pCards">Cards in Deck: 26</h3>
+    <img id = "pImage", src="images/cards/back_card.png", alt="back_card", width=275, height=400>
+    </div>
+
+    <div id="buttons">
+    <button id="draw">Draw a new card</button>
+    <button id="flip">Flip</button>
+    <h1 id="winner"></h1>
+    </div>
+
+
+    <script src="final_project.js"></script>
+</body>
+</html>
